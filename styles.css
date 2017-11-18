@@ -1,0 +1,41 @@
+.card {
+    margin: 25px auto;
+    border: 1px solid rgb(214, 212, 212);
+    border-radius: 1px;
+    box-shadow: 6px 6px 2px rgb(233, 233, 233);
+    padding: 12px;
+    width: 300px;
+}
+/* 图片样式 */
+.card > img {
+    margin-top: 12px;
+    width: 300px;
+    height: 200px;
+}
+
+.card > h3 {
+    font-size: 1.5em;
+}
+
+.card > .details {
+    border: 1px solid rgb(214, 212, 212);
+    border-radius: 1px;
+    margin-top: 12px;
+    padding: 12px;
+    font-size: 0.95em;
+    width: 274px;
+}
+/* 趣味小知识样式 */
+.card > .details > .tips {
+    font-style: italic;
+}
+
+.card > .details > ul{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.card > .details > ul > li > span {
+    font-weight: 800;
+    font-size: 1.05em;
+}
